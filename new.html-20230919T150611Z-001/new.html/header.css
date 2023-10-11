@@ -1,0 +1,171 @@
+
+.header
+{
+    height: 70px;
+    background-color:white;
+    display: flex;
+    margin-top: 0px;
+    margin-left: 0px;
+    flex-direction: row;
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    flex: 1;
+    z-index: 1;
+}
+.logo
+{    
+    padding-top: 1;
+    align-items: center;
+    display: flex;
+    width: 600px;
+    margin-left: 0;
+}
+.search
+{
+    margin-left: 60px;
+    
+    width: 80px;
+    
+}
+.icon
+{
+    margin-left: 230px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color:rgb(37, 97, 103) ;
+    border-width: 0;
+}
+.icon:hover
+{
+    background-color: rgb(32, 125, 125);
+  cursor  : pointer;
+}
+.img
+{
+    width: 20px;
+    
+}
+.option
+{
+    margin-left: 250px;
+    color: rgb(37, 97, 103);
+    font: arial;
+    font-size: 23px;
+    align-items: center;
+    margin-top: 17px;
+   
+    display: flex;
+    flex-direction: row ;
+    flex: 1;
+  
+}
+.home
+{
+    height: 40px;
+    margin-right:50px ;
+   
+}
+.home1
+{
+    height: 40px;
+    margin-right:50px ;
+    
+  background-color:white;
+  color:rgb(37, 97, 103);
+  font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    align-items: center;
+    margin-bottom: 11px;
+   
+    display: flex;
+    flex-direction: row ;
+    flex: 1;
+  
+  
+  border: none;
+    
+}
+.home2
+{
+    height: 40px;
+   display: flex;
+   flex-direction: row;
+   width: 70px;
+    margin-right:50px ;
+    width: 86px;
+   
+}
+.home3
+{ 
+    display:flex;
+    height: 40px;
+    
+    width: 106px;
+   
+    
+}
+.mid
+{
+    display: flex;
+    flex: 1;
+  
+}
+.sign
+{
+    
+    width: 160px;
+    align-items: center;
+   background-color:rgb(37, 97, 103);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+   margin-left: 40px;
+   height: 35px;
+   border-radius: 17.5px;
+   border-width: 0px;
+   font-size: 15px;
+}
+.sign:hover
+{
+    background-color: rgb(32, 125, 125);
+  cursor  : pointer;
+}
+.sign1
+{
+    align-items: center;
+  
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color:rgb(37, 97, 103);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: rgb(37, 97, 103);
+color: white;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .home1 {background-color: rgb(37, 97, 103);
+color: white;
+}

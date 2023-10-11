@@ -1,0 +1,20 @@
+.product-box{
+ display: flex;
+ flex-direction:row;
+ 
+ column-gap: 10px;
+}
+.dis-2{
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	row-gap: 10px;
+}
+.dis-img{
+	width: 80% ;
+}
+.dis-2-1{
+	padding: 50px;
+	height: 40%;
+	background-color: pink;
+}

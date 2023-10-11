@@ -1,0 +1,133 @@
+
+.naw{
+        
+    display: flex;
+    
+   height: 600px;
+   width: 100%;
+   left: 0px;
+   background-color:rgb(20, 68, 72) 
+   
+   
+   
+  }
+  .sub-1{
+    display:absolute;
+    width: 60%;
+    display: inline block;
+   
+    font-family:Lilita One;
+  }
+ @keyframes home {
+    0%,49%
+    {
+         
+    }
+    50%,100%
+    {
+      opacity: 0%;
+    }
+    
+  }
+  @keyframes home1 {
+    0%,49%
+    {
+     opacity: 0%;    
+    }
+    49%,100%
+    {
+      
+    }
+    
+  }
+
+  .sub-2{
+    
+    display: inline-block;
+    size: 50px;
+    background-color: rgb(37, 97, 103);
+    width: 300px;
+    align-items: center;
+   
+  }
+  .pic
+  {
+    display: block;
+    width: 200%;
+   
+    
+  
+    margin-top: 70px;
+    margin-right: 20px;
+    
+  }
+  .text1
+  {
+    font-family:Lilita One;
+    color:rgb(145, 246, 234);
+   margin-top: 20px;
+   margin-left: 70PX;
+   margin-bottom: 0;
+    font-size: 150px;
+    
+    
+    
+  }
+  .text2
+  {
+    font-family:Lilita One;
+    font-size: 70px;
+    color:  rgb(145, 246, 234);
+    margin-top: 0px;
+    margin-left: 80px;
+    margin-bottom: 0px;
+ 
+    animation: home 15s infinite linear;
+  }
+  .text3
+  {
+    font-family:Lilita One;
+    font-size: 70px;
+    color: rgb(145, 246, 234);
+    margin-top: 0px;
+    margin-left: 120px;
+    margin-bottom: 0px;
+   
+    animation: home 15s infinite linear;
+  }
+  
+  .good
+  {
+    color: aliceblue;
+  }
+  .text4
+  {
+    font-family:Lilita One;
+    font-size: 70px;
+    margin-left: 150px;
+    color: rgb(145, 246, 234);
+    animation: home1 15s infinite linear;
+  }
+  .text5{
+  font-family:Lilita One;
+    font-size: 70px;
+    margin-left: 50px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    color: rgb(145, 246, 234);
+    animation: home1 15s infinite linear;
+
+}
+.text6{
+  font-family:Lilita One;
+  display: flex;
+  
+    font-size: 70px;
+    margin-left: 350px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    color: rgb(242, 247, 246);
+    animation: home1 15s infinite linear;
+
+}
+
